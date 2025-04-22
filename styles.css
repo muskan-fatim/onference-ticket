@@ -1,0 +1,183 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    padding: 0 1rem;
+    z-index: 10;
+}
+
+.ticket-generator {
+    background-color: transparent; /* Remove overlay */
+    border-radius: 1rem;
+    padding: 2.5rem;
+    width: 100%;
+    backdrop-filter: blur(5px); /* Optional: adds a nice blur effect */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Optional shadow */
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: hsl(252, 6%, 83%); /* neutral-300 */
+    font-weight: 700;
+    margin-bottom: 0.625rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.subtitle {
+    color: hsl(252, 6%, 83%); /* neutral-300 */
+    font-size: 1.125rem;
+}
+
+.divider {
+    height: 1px;
+    background-color: hsl(245, 15%, 58%); /* neutral-500 */
+    margin: 1.5rem 0;
+    opacity: 0.3;
+}
+
+/* Form styles */
+.form-section h2 {
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    color: white;
+    font-weight: 500;
+}
+
+.upload-container {
+    margin-bottom: 1.5rem;
+}
+
+.upload-box {
+    border: 2px dashed hsl(245, 15%, 58%); /* neutral-500 */
+    border-radius: 0.5rem;
+    padding: 1.875rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upload-box:hover {
+    border-color: hsl(7, 88%, 67%); /* orange-500 */
+    background-color: rgba(245, 124, 95, 0.1);
+}
+
+.upload-icon {
+    font-size: 2.5rem;
+    color: hsl(245, 15%, 58%); /* neutral-500 */
+    display: block;
+    margin-bottom: 0.625rem;
+    font-weight: 300;
+}
+
+.upload-box p {
+    color: hsl(252, 6%, 83%); /* neutral-300 */
+    margin-bottom: 0.3125rem;
+}
+
+.file-requirements {
+    font-size: 0.875rem;
+    color: hsl(245, 15%, 58%); /* neutral-500 */
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: hsl(252, 6%, 83%); /* neutral-300 */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: hsl(248, 70%, 10%); /* neutral-900 */
+    border: 1px solid hsl(245, 15%, 58%); /* neutral-500 */
+    border-radius: 0.3125rem;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: hsl(7, 88%, 67%); /* orange-500 */
+}
+
+.github-input {
+    position: relative;
+}
+
+.github-at {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: hsl(245, 15%, 58%); /* neutral-500 */
+}
+
+.github-input input {
+    padding-left: 1.875rem;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 0.9375rem;
+    background-color: hsl(7, 88%, 67%); /* orange-500 */
+    color: hsl(248, 70%, 10%); /* neutral-900 */
+    border: none;
+    border-radius: 0.3125rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.125rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.25rem;
+}
+
+.generate-btn:hover {
+    background-color: hsl(7, 71%, 60%); /* orange-700 */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .ticket-generator {
+        padding: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ticket-generator {
+        padding: 1.25rem;
+    }
+    
+    .form-group label {
+        font-size: 1.125rem;
+    }
+    
+    .upload-box {
+        padding: 1.25rem;
+    }
+}

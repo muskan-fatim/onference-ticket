@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <title>Conference Ticket</title>
+    <style>
+      body {
+        font-family: 'Inconsolata', monospace;
+      }
+    </style>
+  </head>
+  <body
+  class="relative text-white min-h-screen flex items-center justify-center px-4 py-10 overflow-hidden"
+  style="background-image: url('./assets/images/background-desktop.png'); background-size: cover; background-repeat: no-repeat; background-position: center;"
+>
+  <!-- Decorative SVGs as <img> elements -->
+  <img
+    src="./assets/images/pattern-lines.svg"
+    alt=""
+    class="absolute top-10 left-10 w-16 sm:w-24 lg:w-32 opacity-100 pointer-events-none"
+  />
+  <img
+    src="./assets/images/pattern-squiggly-line-top.svg"
+    alt=""
+    class="absolute top-0 right-0 w-20 sm:w-28 lg:w-[22rem] md:w-[20rem] "
+  />
+  <img
+  src="./assets/images/pattern-squiggly-line-bottom-desktop.svg"
+  alt=""
+  class="absolute bottom-0 left-0 w-32  sm:w-[20rem] lg:w-[28rem] pointer-events-none"
+  />
+
+
+  <!-- Your main container -->
+  <div class="text-center max-w-lg w-full z-10">
+    <!-- Logo -->
+    <img
+      src="./assets/images/logo-full.svg"
+      alt="Logo"
+      class="mx-auto mb-12 w-32 sm:w-40 lg:w-52"
+    />
+
+    <!-- Heading -->
+    <h1 class="text-3xl sm:text-4xl font-bold">
+      Congrats,
+      <span class="text-[#FF6F5B]">Jonatan Kristof</span>! <br />
+      Your ticket is ready.
+    </h1>
+
+    <!-- Info Text -->
+    <p class="text-gray-300 mt-4 text-sm sm:text-base">
+      We've emailed your ticket to
+      <span class="text-[#FF6F5B]">jonatan@email.com</span> and will send
+      updates in the run up to the event.
+    </p>
+
+    <!-- Ticket Card -->
+    <div
+      class="relative mt-10 w-full max-w-xl h-[220px] bg-no-repeat bg-center bg-contain overflow-hidden rounded-xl shadow-lg mx-auto"
+      style="background-image: url('./assets/images/pattern-ticket.svg');"
+    >
+      <div class="absolute inset-0 flex flex-col justify-between px-6 py-5 pointer-events-none sm:py-10">
+        <!-- Top Row -->
+        <div class="flex items-center justify-between text-white text-sm ">
+          <div class="flex items-center gap-2 pl-5 font-semibold text-lg sm:text-xl lg:text-2xl">
+            <img src="./assets/images/logo-mark.svg" class="w-6 sm:w-8 lg:w-10 h-6 sm:h-8 lg:h-10" />
+            <h1 class="text-xl sm:text-2xl lg:text-4xl">Coding Conf</h1>
+          </div>
+        </div>
+        <div class="pr-28 text-gray-50 p-2">Jan 31, 2025 / Austin, TX</div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-auto">
+          <div class="flex items-center gap-4 pl-5">
+            <img
+              src="./assets/images/image-avatar.jpg"
+              alt="User"
+              class="w-14 h-14 rounded-xl"
+            />
+            <div class="text-white">
+              <h3 class="text-lg">Jonatan Kristof</h3>
+              <div class="flex items-center gap-1">
+                <img src="./assets/images/icon-github.svg" class="w-5 h-5" />
+                <p class="text-sm text-gray-300">@jonatankristof0101</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rotate-90 text-xl pr-28 pb-24 text-gray-50 tracking-widest">
+            #01609
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Attribution -->
+    <p class="mt-10 text-sm text-gray-400">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        class="underline"
+        target="_blank"
+      >
+        Frontend Mentor
+      </a>
+      . Coded by
+      <a href="#" class="underline">Muskan Fatima</a>.
+    </p>
+  </div>
+</body>
+
+</html>

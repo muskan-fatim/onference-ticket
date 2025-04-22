@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Conf 2025 Ticket Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="relative text-white min-h-screen flex items-center justify-center px-4 py-10 overflow-hidden"
+      style="background-image: url('./assets/images/background-desktop.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">   
+    <div class="container mx-auto max-w-6xl px-4">
+        <div class="ticket-generator max-w-2xl mx-auto">
+            <h1 class="text-white font-bold text-4xl">Your Journey to Coding Conf</h1>
+                <h1 class="text-white font-bold text-4xl">2025 Starts Here!</h1>
+            <p class="subtitle text-center">Secure your spot at next year's biggest coding conference.</p>
+            
+            <div class="divider"></div>
+            
+            <div class="form-section">
+                <h2>Upload Avatar</h2>
+                
+                <div class="upload-container">
+                    <div class="upload-box" id="uploadBox">
+                        <span class="upload-icon">+</span>
+                        <p>Upload your photo</p>
+                        <p class="file-requirements">JPG or PNG, max 500KB</p>
+                        <input type="file" id="avatarUpload" accept=".jpg,.jpeg,.png" hidden>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" value="Jonatan Kristof">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" value="jonatan@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="github">GitHub Username</label>
+                    <div class="github-input">
+                        <span class="github-at">@</span>
+                        <input type="text" id="github" value="jonatankristof0101">
+                    </div>
+                </div>
+            </div>
+            
+            <button class="generate-btn " id="generateBtn"  onclick="location.href='ticket.html'">Generate My Ticket</button>        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
