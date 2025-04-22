@@ -47,12 +47,11 @@ _You can add your actual screenshot to the `screenshots/` folder and update the 
 
 ### 🔗 Links
 
-- **Live Site URL**: [https://your-live-site-url.com](https://your-live-site-url.com)
-- **Solution URL**: [https://github.com/yourusername/conference-ticket-generator](https://github.com/yourusername/conference-ticket-generator)
+- **Live Site URL**: [https://onference-ticket.vercel.app/](https://onference-ticket.vercel.app/)
+- **Solution URL**: [https://github.com/muskan-fatim/onference-ticket.git](https://github.com/muskan-fatim/onference-ticket.git)
 
 ---
 
-## 🚀 My Process
 
 ### 🛠 Built With
 
@@ -95,7 +94,7 @@ In future versions, I'd like to:
 
 ## 👩‍💻 Author
 
-- GitHub – [@mushii-fatima](https://github.com/mushii-fatima)
+- GitHub – [@mushii-fatima](https://github.com/muskan-fatim)
 - Frontend Mentor – [@mushii-fatima](https://www.frontendmentor.io/profile/mushii-fatima)
 
 ---
