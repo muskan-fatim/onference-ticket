@@ -20,7 +20,7 @@ This project is a conference ticket generator for the Coding Conf 2025. It allow
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/muskan-fatim/conference-ticket-generator.git
+   git clone https://github.com/muskan-fatim/onference-ticket.git
    ```
 2. Open the project folder:
    ```bash
@@ -31,7 +31,7 @@ This project is a conference ticket generator for the Coding Conf 2025. It allow
 ## Screenshots
 
 ### Form Page
-![Form Page](![alt text](./public/image-2.png))
+![Form Page](![alt text](![alt text](./public/image.png)))
 
 ### Ticket Page
 ![Ticket Page](![alt text](./public/image-1.png))
